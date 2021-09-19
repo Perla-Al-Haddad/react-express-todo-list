@@ -1,0 +1,62 @@
+.checked {
+    background-color: rgb(77, 228, 122);
+    text-decoration: line-through;
+    color: white;
+  }
+  
+  .buttons {
+    float: right;
+    top: -34px;
+    position: relative;
+  }
+  .buttons input {
+    width: 30px;
+    height: 30px;
+    color: white
+  }
+  
+  .buttons button {
+    position: relative;
+    font-size: 20px;
+    top: -2px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(241, 72, 72);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  .buttons button:hover {
+    background-color: rgb(221, 50, 50);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+  }
+  .buttons button:active {
+    background-color: rgb(189, 45, 45);
+    color: rgb(223, 223, 223);
+  }
+  .buttons span {
+    top: 1px;
+    position: relative;
+    font-weight: bold;
+  }
+  .left {
+    width: 87%;
+  }
+  .rigth {
+    width: 23%;
+  }
+  
+  .todo-list li {
+    padding: 1rem 25px;
+    margin: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: #dcdcdc 0 3px 8px;
+    font-size: 20px;
+  }
+  
+  .todo-list input:hover {
+    cursor: pointer;
+  }
